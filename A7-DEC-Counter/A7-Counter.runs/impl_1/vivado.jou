@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Sun Nov 24 01:17:20 2024
+# Process ID: 5020
+# Current directory: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1
+# Command line: vivado.exe -log seven_seg_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source seven_seg_top.tcl -notrace
+# Log file: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1/seven_seg_top.vdi
+# Journal file: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1\vivado.jou
+# Running On        :Ryzen
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 7535HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :33509 MB
+# Swap memory       :4831 MB
+# Total Virtual     :38341 MB
+# Available Virtual :21034 MB
+#-----------------------------------------------------------
+source seven_seg_top.tcl -notrace

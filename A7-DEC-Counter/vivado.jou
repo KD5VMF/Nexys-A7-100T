@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Sun Nov 24 00:42:32 2024
+# Process ID: 12888
+# Current directory: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20228 C:\Users\kd5vm\Downloads\Nexys\A7-Counter_BAK\A7-Counter\A7-Counter.xpr
+# Log file: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/vivado.log
+# Journal file: C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter\vivado.jou
+# Running On        :Ryzen
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 7535HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :33509 MB
+# Swap memory       :4831 MB
+# Total Virtual     :38341 MB
+# Available Virtual :24405 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+report_utilization -name utilization_1
+report_ssn -name ssn_1
+report_operating_conditions -grade -return_string
+report_drc -name drc_1 -ruledecks {default}
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run impl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1/seven_seg_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1/seven_seg_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run impl_1
+close_design
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1/seven_seg_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/kd5vm/Downloads/Nexys/A7-Counter_BAK/A7-Counter/A7-Counter.runs/impl_1/seven_seg_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
