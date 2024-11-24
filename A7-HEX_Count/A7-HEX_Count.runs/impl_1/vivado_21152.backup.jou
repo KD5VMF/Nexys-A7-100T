@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Sun Nov 24 11:53:19 2024
+# Process ID: 21152
+# Current directory: C:/Users/kd5vm/Downloads/Nexys/A7-HEX_Count/A7-HEX_Count.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/kd5vm/Downloads/Nexys/A7-HEX_Count/A7-HEX_Count.runs/impl_1/top.vdi
+# Journal file: C:/Users/kd5vm/Downloads/Nexys/A7-HEX_Count/A7-HEX_Count.runs/impl_1\vivado.jou
+# Running On        :Ryzen
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 7535HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :33509 MB
+# Swap memory       :4831 MB
+# Total Virtual     :38341 MB
+# Available Virtual :24473 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
