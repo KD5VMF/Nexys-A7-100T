@@ -35,7 +35,23 @@ To replicate and test the projects, you will need:
 - Digilent **Nexys A7-100T FPGA board**  
 - Xilinx **Vivado Design Suite** (WebPACK or Standard Edition)  
 - A working installation of **USB drivers** for Digilent boards  
-- Optional: USB-to-UART terminal software (e.g., PuTTY, TeraTerm)
+- Optional: USB-to-UART terminal software (e.g., PuTTY, TeraTerm)  
+- For MEGA65-related projects: a properly prepared **SD card** (formatted as FAT32, set up as a Mega SD card with the required core and ROM files)
+
+---
+
+## 🔧 Jumper Settings for SD Boot
+
+To boot directly from the **microSD card** slot on the Nexys A7-100T, set the jumpers as follows:
+
+- **JP1 (JTAG / QSPI / USB / SD)** → **SD**  
+  - Move the shunt to cover the **SD** position.  
+- **JP2 (Power Source)** → **USB/External** depending on how you power the board.  
+  - Typically **USB** if powering via the programming cable.  
+- **JP3 (Boot Mode Voltage Ref)** → Leave in default position (factory set).  
+
+⚠️ Make sure **JP1 is set to SD** before powering on the board if you want to boot from the SD card.  
+If left at **QSPI/JTAG**, the board will ignore the SD card and attempt to boot from other sources.  
 
 ---
 
@@ -66,6 +82,7 @@ To replicate and test the projects, you will need:
 - **UART Prime Calculator** – A prime number generator printing results via UART.  
 - **Snake Game (VGA)** – Simple VGA-based snake game implementation.  
 - **Ethernet MAC + NTP Client** – Hardware networking project running directly on the FPGA.  
+- **MEGA65 Core Projects** – Implementations that require a properly formatted **Mega SD card** (FAT32) with the necessary MEGA65 files.  
 
 Each project comes with source code and a description in its folder.
 
@@ -88,6 +105,7 @@ This repository is licensed under the MIT License — see the [LICENSE](LICENSE)
 
 - [Digilent](https://digilent.com) for the Nexys A7-100T board.  
 - [Xilinx](https://www.xilinx.com) for the Vivado Design Suite.  
+- [MEGA65 Project](https://mega65.org) for the open-source MEGA65 ecosystem.  
 - The open-source FPGA community for continuous inspiration.  
 
 ---
